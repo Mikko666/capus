@@ -2,6 +2,9 @@ installation back
 - pip install -r requirements.txt
 - créer une base de données nommée cube
 - changer les accès à la base de données
+- créer un fichier .env avec 
+secret=please_please_update_me_please
+algorithm=HS256
 
 
 installation front
@@ -9,6 +12,7 @@ installation front
 - yarn install
 - installer https://github.com/Genymobile/scrcpy (optionnel)
 - changer l'url de l'api dans le client (api/Client.js)
+
 
 
 lancement front
